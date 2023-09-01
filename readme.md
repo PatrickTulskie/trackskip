@@ -59,6 +59,22 @@ go build .
 
    Once running, you can visit `http://localhost:8080/?q=<TRACKING_URL>` to get redirected to the real URL.
 
+### Docker
+
+If you're running docker, you can use it like so:
+
+1. CLI
+
+```
+URL="<TRACKING_URL>" docker-compose run trackskip-cli
+```
+
+2. Server
+
+```
+docker-compose up trackskip-server
+```
+
 ### Testing
 
 Tests are available for the library, CLI, and server. Run them using:

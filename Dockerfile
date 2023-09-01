@@ -14,4 +14,4 @@ RUN go mod download
 COPY . .
 
 # The command below will default to running the CLI, but you can override it for testing
-CMD ["go", "run", "./cli.go"]
+CMD ["go", "run", "./cli/cli.go"]
